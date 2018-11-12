@@ -1,7 +1,7 @@
 # ssvm_python
-SSVM is a reformulation of conventional SVM and can be solved by a fast Newton-Armijo algorithm.
+SSVM is a reformulation of conventional SVM and can be solved by a fast Newton-Armijo algorithm
 
-This project use **matlab engine for python** to call matlab function, and create a sklearn-like way to use those functions.
+This project use **matlab engine for python** to call matlab function, and create a sklearn-like way to use those functions
 
 <p align="center"><img src="/image/ssvm_architecture.png" height="200"></p>
 
@@ -28,13 +28,13 @@ You can use SSVC to classification or SSVR to do regression(**notice: both linea
 - ```ssvc.fit(data, label)``` or ```ssvr.fit(data, value)```
 
 notice that about input format:
-- data: shape must be (m, n) array-like type, which m is data size and n is feature number.
-- label/value: shape must be (1, m) or (m, 1) array-like type, which m is data size.
+- data: shape must be (m, n) array-like type, which m is data size and n is feature number
+- label/value: shape must be (1, m) or (m, 1) array-like type, which m is data size
 #### 5.predict
 use ```.predict(data)``` to predict
 
 ## Demo
-you can see demo code in `SSVC_Demo.ipynb` & `SSVR_Demo.ipynb`.
+you can see demo code in `SSVC_Demo.ipynb` & `SSVR_Demo.ipynb`
 
 ## References
 ### paper 
