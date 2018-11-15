@@ -1,5 +1,5 @@
 # ssvm_python
-SSVM is a reformulation of conventional SVM and can be solved by a fast Newton-Armijo algorithm
+SSVM is a reformulation of conventional SVM and can be solved by a fast Newton-Armijo algorithm.For more detail about SSVM, you can see this [introduction](https://hackmd.io/s/Sy4LFLqaQ).
 
 This project use **matlab engine for python** to call matlab function, and create a sklearn-like way to use those functions
 
