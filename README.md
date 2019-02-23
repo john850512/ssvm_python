@@ -16,6 +16,8 @@ After import ```ssvm.py``` package, you can use ```Smooth Support Vector Classif
 just like sklearn, very easy, right:-)?
 
 ## Usage
+Please install [python matlab api](https://ww2.mathworks.cn/help/matlab/matlab_external/install-the-matlab-engine-for-python.html?ue) first.
+
 You can use SSVC to classification or SSVR to do regression(**notice: both linear-only**).
 #### 1. First, download these files and move to your workpath
 `ssvc.m`、`ssvr.m`、`ssvm.py`
@@ -31,7 +33,7 @@ notice that about input format:
 - data: shape must be (m, n) array-like type, which m is data size and n is feature number
 - label/value: shape must be (1, m) or (m, 1) array-like type, which m is data size
 #### 5.predict
-use ```.predict(data)``` to predict
+use ```.predict(data)``` to predict##
 
 ## Demo
 you can see demo code in `SSVC_Demo.ipynb` & `SSVR_Demo.ipynb`
